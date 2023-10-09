@@ -1,42 +1,64 @@
-# duplicate in string 
-# user = input("Enter your string : ")
-# duplicate = ""
-# length = len(user)
+# loops are repetition of something
+# # I want to repeat some sentence/ repeat my code
 
-# for i in range(length-1):
-#   for j in range(i+1,length):
-#     if user[i]==user[j]:
-#        if user[i] not in duplicate:
-#           duplicate = duplicate + user[i]
+# for i in range(1,11):
+#   # the range will work tilll n -1
+             # 11 ---> 10
+            # 50 ---> 49
+            # 999 --> 998
+              # the ending point
+  # my I is working from 0 to 9  --> 10
+                        # 0 to 10 --> 11
+  # starting point --> 1 to 10
+#   print(i)
 
-# print(duplicate)
+# # 
+# 1 to 85
+# 1 to 16 
+# -10 to 1
+# -15 to -5
+# -15 to 14
+  
+# when you are using words/ strings
+# better to use normal numbers
 
-# PRACTICE --> YOU WILL BE COMFORTABLE MORE WITH PYTHON
-# THAT"S THE CORRECT PATH YOU ARE ON, IF YOU ARE GETTING PROBLEM IN
-# LOGIC, THEN JUST BE PATIENT AS YOU ARE ON CORRECT PATH
-# THIS IS HOW LOGIC BUILDING BUILDS
 
-# user enters a string --> Aabra kadabra
-# you have to print only even number of index alphabets
-#  A a b r a  k a d a b r a
-#    0 1 2 3 4  5 6 7 8 9 10 11
+# for i in range(10,-11,-1):
+#                      # reverse order reduce -1 at every step
+#   print(i)
 
-# ans = [b,a,a,a,r]
+# # 
+# 110 --> 999
+# 568 -->68
+# 75 --> 15
+# 10 --> -43
+# 111 --  11
 
-# str = input("Enter the string : ")
-# ans = []
-# length = len(str)
-# for i in range(1,length):
-#    if i%2==0: # we are checking even or not
-#     ans.append(str[i])
+# WHILE loop
 
-# print(ans)
+# while the condition is true, the loop will work
+#otherwise it will not work
 
-# Count number of duplicates there in the string
-# string = "Aabra kadabra"
-# user = "a"
-output = 6
+# n = 10
+# while n >0: # the condition is true
+#   print(n)
+#   n = n-1
 
-string = "Aabra kadabra"
-print(string.upper())
-print(string.lower())
+# n = 110
+# while n<=999:
+#   print(n)
+#   n = n +1
+
+Q3. Write a program to print first 10 even numbers.
+Show Answer
+
+
+Q4. Write a program to print first 10 odd numbers.
+Show Answer
+
+
+Q5. Write a program to print first 10 even numbers in reverse order.
+Show Answer
+
+
+Q6. Write a program to print table of a number accepted from user.
